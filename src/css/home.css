@@ -1,0 +1,66 @@
+/* home.css */
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.homeContainerButton {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.homeContainerAddJob,
+.homeContainerShowJob {
+    display: inline-block;
+}
+
+.homeContainerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.homeContainerFormJobTitle,
+.homeContainerFormDate,
+.homeContainerFormHours,
+.homeContainerFormWages {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.primaryBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primaryBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles */
+
+.homeContainerForm input[type="text"],
+.homeContainerForm input[type="number"],
+.homeContainerForm input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.homeContainerForm input[type="text"]:focus,
+.homeContainerForm input[type="number"]:focus,
+.homeContainerForm input[type="date"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+}

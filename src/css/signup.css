@@ -1,0 +1,56 @@
+/* signUp.css */
+
+.signUpContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.signUpContainerEmployeeEmail,
+.signUpContainerEmployeeFirstName,
+.signUpContainerEmployeeLastName,
+.signUpContainerEmployeePassword,
+.signUpContainerEmployeeCPassword {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.signUpContainerEmployeeEmail label,
+.signUpContainerEmployeeFirstName label,
+.signUpContainerEmployeeLastName label,
+.signUpContainerEmployeePassword label,
+.signUpContainerEmployeeCPassword label {
+    font-size: 16px;
+}
+
+.signUpContainerEmployeeEmail input,
+.signUpContainerEmployeeFirstName input,
+.signUpContainerEmployeeLastName input,
+.signUpContainerEmployeePassword input,
+.signUpContainerEmployeeCPassword input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signUpContainerSubmit {
+    margin-top: 20px;
+}
+
+.primaryBtn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primaryBtn:hover {
+    background-color: #0056b3;
+}
